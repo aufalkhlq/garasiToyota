@@ -5,6 +5,9 @@ import PriceTable from "@/components/pricelist/PriceTable";
 import PricelistImageGallery from "@/components/pricelist/PricelistImageGallery";
 import { getSiteSettings, getSetting } from "@/lib/cms";
 
+export const dynamic = "force-dynamic";
+
+
 export const metadata: Metadata = {
   title: "Pricelist Mobil Lengkap",
   description:

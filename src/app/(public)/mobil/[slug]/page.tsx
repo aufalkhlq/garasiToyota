@@ -23,6 +23,9 @@ import {
   formatPrice,
 } from "@/lib/cms";
 
+export const dynamic = "force-dynamic";
+
+
 type Props = { params: { slug: string } };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

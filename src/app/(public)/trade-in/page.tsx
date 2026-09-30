@@ -3,6 +3,9 @@ import { RefreshCw, CheckCircle2, ShieldCheck, Clock } from "lucide-react";
 import TradeInForm from "@/components/tradein/TradeInForm";
 import { getSiteSettings, getSetting } from "@/lib/cms";
 
+export const dynamic = "force-dynamic";
+
+
 export const metadata: Metadata = {
   title: "Trade In Mobil Lama - Tukar Tambah Mudah",
   description:
