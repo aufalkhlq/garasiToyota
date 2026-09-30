@@ -1,0 +1,468 @@
+
+> dealer-mobil@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.15
+  - Local:        http://localhost:3000
+  - Environments: .env
+
+ ✓ Starting...
+ ✓ Ready in 2.1s
+ ○ Compiling / ...
+ ✓ Compiled / in 4.4s (628 modules)
+ ✓ Compiled in 596ms (305 modules)
+ GET / 200 in 5085ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 511ms (622 modules)
+ GET / 404 in 877ms
+ GET /_next/static/css/app/layout.css?v=1790714974865 404 in 51ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 52ms
+ GET /_next/static/chunks/main-app.js?v=1790714974865 404 in 55ms
+ GET / 200 in 137ms
+ GET /_next/static/css/app/layout.css?v=1790714998899 404 in 63ms
+ GET /_next/static/chunks/main-app.js?v=1790714998899 404 in 100ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 102ms
+ GET /_next/static/chunks/app/(public)/layout.js 404 in 97ms
+ GET /_next/static/chunks/app/(public)/page.js 404 in 89ms
+ GET / 200 in 89ms
+ GET /_next/static/css/app/layout.css?v=1790714999980 404 in 46ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 74ms
+ GET /_next/static/chunks/main-app.js?v=1790714999980 404 in 73ms
+ GET /_next/static/chunks/app/(public)/layout.js 404 in 74ms
+ GET /_next/static/chunks/app/(public)/page.js 404 in 55ms
+ ○ Compiling /pricelist ...
+ ✓ Compiled /pricelist in 540ms (639 modules)
+ GET /pricelist 200 in 1349ms
+ GET /_next/static/css/app/layout.css?v=1790715003140 404 in 34ms
+ GET /_next/static/chunks/main-app.js?v=1790715003140 404 in 53ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 52ms
+ GET /_next/static/chunks/app/(public)/layout.js 404 in 52ms
+ GET / 200 in 111ms
+ GET /_next/static/css/app/layout.css?v=1790715004228 404 in 30ms
+ GET /_next/static/chunks/main-app.js?v=1790715004228 404 in 51ms
+ GET /_next/static/chunks/app/(public)/layout.js 404 in 48ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 50ms
+ GET /_next/static/chunks/app/(public)/page.js 404 in 49ms
+ ○ Compiling /trade-in ...
+ ✓ Compiled /trade-in in 587ms (692 modules)
+ GET /trade-in 200 in 1759ms
+ GET /_next/static/css/app/layout.css?v=1790715006525 404 in 50ms
+ GET /_next/static/chunks/main-app.js?v=1790715006525 404 in 49ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 48ms
+ GET /_next/static/chunks/app/(public)/layout.js 404 in 47ms
+ GET /trade-in 200 in 77ms
+ GET /_next/static/css/app/layout.css?v=1790715007743 404 in 28ms
+ GET /_next/static/chunks/main-app.js?v=1790715007743 404 in 37ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 39ms
+ GET /_next/static/chunks/app/(public)/layout.js 404 in 37ms
+ ✓ Compiled /src/middleware in 350ms (72 modules)
+ ○ Compiling /admin/hero-slides/[id] ...
+ ✓ Compiled /admin/hero-slides/[id] in 790ms (765 modules)
+ GET /admin/hero-slides/1 200 in 2637ms
+ ✓ Compiled /api/upload in 307ms (460 modules)
+ POST /api/upload 200 in 1838ms
+ POST /api/upload 200 in 34ms
+ ○ Compiling /admin/cars ...
+ ✓ Compiled /admin/cars in 672ms (798 modules)
+ ✓ Compiled in 1340ms (320 modules)
+ ○ Compiling /admin/testimonials ...
+ ✓ Compiled /admin/testimonials in 579ms (805 modules)
+ ○ Compiling /admin/testimonials/new ...
+ ✓ Compiled /admin/testimonials/new in 595ms (816 modules)
+ POST /api/upload 200 in 43ms
+ ✓ Compiled in 1171ms (824 modules)
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 617ms (830 modules)
+ ✓ Compiled /admin/trade-in in 475ms (787 modules)
+ ✓ Compiled /admin/cars in 168ms (477 modules)
+ ○ Compiling /admin/cars/[id] ...
+ ✓ Compiled /admin/cars/[id] in 673ms (812 modules)
+ ✓ Compiled in 708ms (812 modules)
+ ✓ Compiled in 856ms (756 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 859ms (738 modules)
+ GET /admin/cars/1 200 in 324ms
+ ✓ Compiled /api/upload in 408ms (458 modules)
+ POST /api/upload 200 in 1976ms
+ ⨯ Error: Cannot find module './379.js'
+Require stack:
+- D:\Freelance\Garasi\dealer-mobil\.next\server\webpack-runtime.js
+- D:\Freelance\Garasi\dealer-mobil\.next\server\app\api\upload\route.js
+- D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\require.js
+- D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\load-components.js
+- D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\utils.js
+- D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\lib\router-server.js
+- D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1365:15)
+    at D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at __webpack_require__.f.require (D:\Freelance\Garasi\dealer-mobil\.next\server\webpack-runtime.js:203:28)
+    at D:\Freelance\Garasi\dealer-mobil\.next\server\webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\Freelance\Garasi\dealer-mobil\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\Freelance\Garasi\dealer-mobil\.next\server\webpack-runtime.js:167:22)
+    at D:\Freelance\Garasi\dealer-mobil\.next\server\app\admin\(protected)\cars\[id]\page.js:1:2908
+    at Object.<anonymous> (D:\Freelance\Garasi\dealer-mobil\.next\server\app\admin\(protected)\cars\[id]\page.js:1:2977)
+    at Module._compile (node:internal/modules/cjs/loader:1688:14)
+    at Object..js (node:internal/modules/cjs/loader:1820:10)
+    at Module.load (node:internal/modules/cjs/loader:1423:32)
+    at Function._load (node:internal/modules/cjs/loader:1246:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at requirePage (D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\require.js:109:84)
+    at D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\load-components.js:98:84
+    at async loadComponentsImpl (D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\load-components.js:98:26)
+    at async DevServer.findPageComponentsImpl (D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\next-server.js:709:36)
+    at async DevServer.findPageComponents (D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\base-server.js:1894:24)
+    at async DevServer.renderToResponseImpl (D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\base-server.js:1946:32)
+    at async DevServer.pipeImpl (D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\base-server.js:921:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\base-server.js:817:17)
+    at async D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\lib\router-server.js:173:21)
+    at async handleRequest (D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\lib\router-server.js:350:24)
+    at async requestHandlerImpl (D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\lib\router-server.js:374:13)
+    at async Server.requestListener (D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\Freelance\\Garasi\\dealer-mobil\\.next\\server\\webpack-runtime.js',
+    'D:\\Freelance\\Garasi\\dealer-mobil\\.next\\server\\app\\api\\upload\\route.js',
+    'D:\\Freelance\\Garasi\\dealer-mobil\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\Freelance\\Garasi\\dealer-mobil\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\Freelance\\Garasi\\dealer-mobil\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\Freelance\\Garasi\\dealer-mobil\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\Freelance\\Garasi\\dealer-mobil\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\Freelance\\Garasi\\dealer-mobil\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\Freelance\\Garasi\\dealer-mobil\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\Freelance\\Garasi\\dealer-mobil\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/admin/cars/1'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_not-found in 2.7s (1004 modules)
+ POST /admin/cars/1 500 in 3568ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /_next/static/webpack/da352b9e18ea9d23.webpack.hot-update.json 404 in 1919ms
+ GET /admin/cars/1 200 in 136ms
+ GET /_next/static/css/app/layout.css?v=1790715610403 404 in 69ms
+ GET /_next/static/chunks/main-app.js?v=1790715610403 404 in 77ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 76ms
+ GET /_next/static/chunks/app/admin/(protected)/cars/%5Bid%5D/page.js 404 in 76ms
+ ⨯ Failed to generate static paths for /admin/cars/[id]:
+Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\Freelance\Garasi\dealer-mobil\.next\server\webpack-runtime.js
+- D:\Freelance\Garasi\dealer-mobil\.next\server\app\admin\(protected)\cars\[id]\page.js
+- D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\require.js
+- D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\load-components.js
+- D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\utils.js
+- D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1365:15)
+    at D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\Freelance\\Garasi\\dealer-mobil\\.next\\server\\webpack-runtime.js',
+    'D:\\Freelance\\Garasi\\dealer-mobil\\.next\\server\\app\\admin\\(protected)\\cars\\[id]\\page.js',
+    'D:\\Freelance\\Garasi\\dealer-mobil\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\Freelance\\Garasi\\dealer-mobil\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\Freelance\\Garasi\\dealer-mobil\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\Freelance\\Garasi\\dealer-mobil\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\Freelance\\Garasi\\dealer-mobil\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ]
+}
+ ⨯ Failed to generate static paths for /admin/cars/[id]:
+Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\Freelance\Garasi\dealer-mobil\.next\server\webpack-runtime.js
+- D:\Freelance\Garasi\dealer-mobil\.next\server\app\admin\(protected)\cars\[id]\page.js
+- D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\require.js
+- D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\load-components.js
+- D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\utils.js
+- D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1365:15)
+    at D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\Freelance\\Garasi\\dealer-mobil\\.next\\server\\webpack-runtime.js',
+    'D:\\Freelance\\Garasi\\dealer-mobil\\.next\\server\\app\\admin\\(protected)\\cars\\[id]\\page.js',
+    'D:\\Freelance\\Garasi\\dealer-mobil\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\Freelance\\Garasi\\dealer-mobil\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\Freelance\\Garasi\\dealer-mobil\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\Freelance\\Garasi\\dealer-mobil\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\Freelance\\Garasi\\dealer-mobil\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ]
+}
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat 'D:\Freelance\Garasi\dealer-mobil\.next\server\vendor-chunks\lucide-react.js'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/lucide-react' in D:\Freelance\Garasi\dealer-mobil\.next\server for build dependencies doesn't lead to expected result 'D:\Freelance\Garasi\dealer-mobil\.next\server\vendor-chunks\lucide-react.js', but to 'Error: Can't resolve './vendor-chunks/lucide-react' in 'D:\Freelance\Garasi\dealer-mobil\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/lucide-react (expected D:\Freelance\Garasi\dealer-mobil\.next\server\vendor-chunks\lucide-react.js)
+<w>  at file dependencies D:\Freelance\Garasi\dealer-mobil\.next\server\webpack-runtime.js
+<w>  at file D:\Freelance\Garasi\dealer-mobil\.next\server\webpack-runtime.js
+<w>  at file dependencies D:\Freelance\Garasi\dealer-mobil\.next\server\pages\_app.js
+<w>  at file D:\Freelance\Garasi\dealer-mobil\.next\server\pages\_app.js
+<w>  at file dependencies D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\require.js
+<w>  at file D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\require.js
+<w>  at file dependencies D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\load-components.js
+<w>  at file D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\utils.js
+<w>  at file D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\utils.js
+<w>  at file dependencies D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\Freelance\Garasi\dealer-mobil\.next\server\webpack-runtime.js
+- D:\Freelance\Garasi\dealer-mobil\.next\server\app\admin\(protected)\cars\[id]\page.js
+- D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\require.js
+- D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\load-components.js
+- D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\utils.js
+- D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1365:15)
+    at D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\Freelance\\Garasi\\dealer-mobil\\.next\\server\\webpack-runtime.js',
+    'D:\\Freelance\\Garasi\\dealer-mobil\\.next\\server\\app\\admin\\(protected)\\cars\\[id]\\page.js',
+    'D:\\Freelance\\Garasi\\dealer-mobil\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\Freelance\\Garasi\\dealer-mobil\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\Freelance\\Garasi\\dealer-mobil\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\Freelance\\Garasi\\dealer-mobil\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\Freelance\\Garasi\\dealer-mobil\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/admin/cars/1'
+}
+ GET /admin/cars/1 500 in 424ms
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\Freelance\Garasi\dealer-mobil\.next\server\webpack-runtime.js
+- D:\Freelance\Garasi\dealer-mobil\.next\server\app\admin\(protected)\cars\[id]\page.js
+- D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\require.js
+- D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\load-components.js
+- D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\utils.js
+- D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1365:15)
+    at D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\Freelance\\Garasi\\dealer-mobil\\.next\\server\\webpack-runtime.js',
+    'D:\\Freelance\\Garasi\\dealer-mobil\\.next\\server\\app\\admin\\(protected)\\cars\\[id]\\page.js',
+    'D:\\Freelance\\Garasi\\dealer-mobil\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\Freelance\\Garasi\\dealer-mobil\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\Freelance\\Garasi\\dealer-mobil\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\Freelance\\Garasi\\dealer-mobil\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\Freelance\\Garasi\\dealer-mobil\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/admin/cars/1'
+}
+ GET /admin/cars/1 500 in 423ms
+ ○ Compiling /trade-in ...
+ ✓ Compiled /trade-in in 589ms (490 modules)
+ GET /trade-in 200 in 1467ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 622ms (1010 modules)
+ GET /_next/static/css/app/layout.css?v=1790716157773 404 in 794ms
+ GET /_next/static/chunks/main-app.js?v=1790716157773 404 in 813ms
+ GET /_next/static/chunks/app/(public)/layout.js 404 in 804ms
+ GET /_next/static/chunks/app/(public)/trade-in/page.js 404 in 806ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 813ms
+ GET /admin/cars/1 200 in 850ms
+ GET /_next/static/css/app/layout.css?v=1790716159203 404 in 43ms
+ GET /_next/static/chunks/main-app.js?v=1790716159203 404 in 59ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 54ms
+ GET /_next/static/chunks/app/admin/(protected)/cars/%5Bid%5D/page.js 404 in 33ms
+ GET /admin/cars/1 404 in 28ms
+ GET /admin/cars/1 404 in 33ms
+ GET /admin/cars/1 404 in 28ms
+ GET /admin/cars/1 404 in 31ms
+ GET /admin/cars/1 404 in 28ms
+ GET /admin/cars/1 404 in 28ms
+ GET /admin/cars/1 404 in 35ms
+ GET /admin/cars/1 404 in 26ms
+ GET /admin/cars/1 404 in 31ms
+ GET /admin/cars/1 404 in 26ms
+ GET /admin/cars/1 404 in 30ms
+ GET /admin/cars/1 404 in 26ms
+ GET /admin/cars/1 404 in 22ms
+ GET /admin/cars/1 404 in 23ms
+ GET /admin/cars/1 404 in 26ms
+ GET /admin/cars/1 404 in 26ms
+ GET /admin/cars 404 in 246ms
+ GET /admin/cars 404 in 251ms
+ GET /admin/cars 404 in 247ms
+ GET /admin/cars 404 in 237ms
+ GET /admin/cars 200 in 101ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat 'D:\Freelance\Garasi\dealer-mobil\.next\server\app\admin\(protected)\cars\[id]'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/_not-found/page' in D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server for build dependencies doesn't lead to expected result 'D:\Freelance\Garasi\dealer-mobil\.next\server\app\_not-found\page.js', but to 'Error: Can't resolve '../../../../.next/server/app/_not-found/page' in 'D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/_not-found/page (expected D:\Freelance\Garasi\dealer-mobil\.next\server\app\_not-found\page.js)
+<w>  at file dependencies D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\require.js
+<w>  at file D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\require.js
+<w>  at file dependencies D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\load-components.js
+<w>  at file D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\utils.js
+<w>  at file D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\utils.js
+<w>  at file dependencies D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/admin/(protected)/cars/[id]/page' in D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server for build dependencies doesn't lead to expected result 'D:\Freelance\Garasi\dealer-mobil\.next\server\app\admin\(protected)\cars\[id]\page.js', but to 'Error: Can't resolve '../../../../.next/server/app/admin/(protected)/cars/[id]/page' in 'D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/admin/(protected)/cars/[id]/page (expected D:\Freelance\Garasi\dealer-mobil\.next\server\app\admin\(protected)\cars\[id]\page.js)
+<w>  at file dependencies D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\require.js
+<w>  at file D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\require.js
+<w>  at file dependencies D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\load-components.js
+<w>  at file D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\utils.js
+<w>  at file D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\utils.js
+<w>  at file dependencies D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+ ✓ Compiled in 3.5s (517 modules)
+ ✓ Compiled in 734ms (517 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat 'D:\Freelance\Garasi\dealer-mobil\.next\server\app\admin\(protected)\cars\page.js'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/admin/(protected)/cars/page' in D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server for build dependencies doesn't lead to expected result 'D:\Freelance\Garasi\dealer-mobil\.next\server\app\admin\(protected)\cars\page.js', but to 'Error: Can't resolve '../../../../.next/server/app/admin/(protected)/cars/page' in 'D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/admin/(protected)/cars/page (expected D:\Freelance\Garasi\dealer-mobil\.next\server\app\admin\(protected)\cars\page.js)
+<w>  at file dependencies D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\require.js
+<w>  at file D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\require.js
+<w>  at file dependencies D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\load-components.js
+<w>  at file D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\utils.js
+<w>  at file D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\utils.js
+<w>  at file dependencies D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file dependencies D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js
+<w>  at file D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js
+<w>  at file dependencies D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\compiled\webpack\bundle5.js
+<w>  at file D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\compiled\webpack\bundle5.js
+<w>  at file dependencies D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\compiled\webpack\webpack.js
+<w>  at file D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\compiled\webpack\webpack.js
+<w>  at file dependencies D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\webpack\plugins\define-env-plugin.js
+<w>  at file D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\webpack\plugins\define-env-plugin.js
+<w>  at file dependencies D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\swc\index.js
+<w>  at file D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\swc\index.js
+<w>  at file dependencies D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\webpack\loaders\next-barrel-loader.js
+<w>  at file D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\webpack\loaders\next-barrel-loader.js
+<w>  at resolve commonjs D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\webpack\loaders\next-barrel-loader.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/admin/(protected)/cars/[id]/page' in D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server for build dependencies doesn't lead to expected result 'D:\Freelance\Garasi\dealer-mobil\.next\server\app\admin\(protected)\cars\[id]\page.js', but to 'Error: Can't resolve '../../../../.next/server/app/admin/(protected)/cars/[id]/page' in 'D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/admin/(protected)/cars/[id]/page (expected D:\Freelance\Garasi\dealer-mobil\.next\server\app\admin\(protected)\cars\[id]\page.js)
+<w>  at file dependencies D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\require.js
+<w>  at file D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\require.js
+<w>  at file dependencies D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\load-components.js
+<w>  at file D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\utils.js
+<w>  at file D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\utils.js
+<w>  at file dependencies D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file dependencies D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js
+<w>  at file D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js
+<w>  at file dependencies D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\compiled\webpack\bundle5.js
+<w>  at file D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\compiled\webpack\bundle5.js
+<w>  at file dependencies D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\compiled\webpack\webpack.js
+<w>  at file D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\compiled\webpack\webpack.js
+<w>  at file dependencies D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\webpack\plugins\define-env-plugin.js
+<w>  at file D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\webpack\plugins\define-env-plugin.js
+<w>  at file dependencies D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\swc\index.js
+<w>  at file D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\swc\index.js
+<w>  at file dependencies D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\webpack\loaders\next-barrel-loader.js
+<w>  at file D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\webpack\loaders\next-barrel-loader.js
+<w>  at resolve commonjs D:\Freelance\Garasi\dealer-mobil\node_modules\next\dist\build\webpack\loaders\next-barrel-loader.js
+ ✓ Compiled in 2.2s (964 modules)
+ ✓ Compiled in 750ms (517 modules)
+ ✓ Compiled in 405ms (517 modules)
+ ✓ Compiled in 392ms (517 modules)
+ ✓ Compiled in 2.5s (515 modules)
+ ✓ Compiled in 371ms (515 modules)
+ ✓ Compiled in 3.2s (515 modules)
+ ✓ Compiled in 2.5s (962 modules)
+ ✓ Compiled in 351ms (515 modules)
+ ✓ Compiled in 403ms (515 modules)
+ ✓ Compiled in 1225ms (962 modules)
+ ✓ Compiled in 731ms (962 modules)
+ ✓ Compiled in 2.7s (1173 modules)
+ ✓ Compiled in 647ms (1146 modules)
+ ✓ Compiled in 1224ms (1146 modules)
+ ✓ Compiled in 961ms (1160 modules)
+ ✓ Compiled in 342ms (615 modules)
+ ✓ Compiled in 380ms (1146 modules)
+ ✓ Compiled in 977ms (628 modules)
+ ✓ Compiled in 908ms (1162 modules)
+ ✓ Compiled in 651ms (1162 modules)
+ ✓ Compiled in 668ms (1162 modules)
+ ✓ Compiled in 345ms (615 modules)
+ ✓ Compiled in 323ms (615 modules)
+ ✓ Compiled in 450ms (615 modules)
+ ✓ Compiled in 471ms (615 modules)
+ ✓ Compiled in 482ms (615 modules)
+[Error: ENOENT: no such file or directory, stat 'D:\Freelance\Garasi\dealer-mobil\.next\cache\webpack\client-development\1.pack.gz'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'D:\\Freelance\\Garasi\\dealer-mobil\\.next\\cache\\webpack\\client-development\\1.pack.gz'
+}
+ ⨯ unhandledRejection: [Error: ENOENT: no such file or directory, stat 'D:\Freelance\Garasi\dealer-mobil\.next\cache\webpack\client-development\1.pack.gz'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'D:\\Freelance\\Garasi\\dealer-mobil\\.next\\cache\\webpack\\client-development\\1.pack.gz'
+}
+ ⨯ unhandledRejection: [Error: ENOENT: no such file or directory, stat 'D:\Freelance\Garasi\dealer-mobil\.next\cache\webpack\client-development\1.pack.gz'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'D:\\Freelance\\Garasi\\dealer-mobil\\.next\\cache\\webpack\\client-development\\1.pack.gz'
+}
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, stat 'D:\Freelance\Garasi\dealer-mobil\.next\cache\webpack\client-development\1.pack.gz'

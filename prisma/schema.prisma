@@ -1,0 +1,154 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model TradeInSubmission {
+  id              Int      @id @default(autoincrement())
+  createdAt       DateTime @default(now())
+  // Data Pelanggan
+  customerName    String
+  customerPhone   String
+  customerEmail   String?  @db.VarChar(255)
+  // Data Mobil Lama
+  oldCarBrand     String
+  oldCarModel     String
+  oldCarYear      Int
+  oldCarKm        Int
+  oldCarCondition String
+  // Mobil Incaran
+  targetCar       String   @db.Text
+  // Catatan Tambahan
+  notes           String?  @db.Text
+  // Status
+  status          String   @default("baru") // baru, diproses, selesai
+
+  @@index([status])
+  @@index([createdAt])
+  @@map("trade_in_submissions")
+}
+
+model ContactMessage {
+  id          Int      @id @default(autoincrement())
+  createdAt   DateTime @default(now())
+  name        String
+  email       String   @db.VarChar(255)
+  phone       String?  @db.VarChar(50)
+  subject     String   @db.VarChar(255)
+  message     String   @db.Text
+  status      String   @default("baru") // baru, dibaca, dibalas
+
+  @@index([status])
+  @@index([createdAt])
+  @@map("contact_messages")
+}
+
+// ============================================================================
+// CMS — Konten Statis
+// ============================================================================
+
+model CarType {
+  id        Int      @id @default(autoincrement())
+  name      String   @unique @db.VarChar(50) // SUV, MPV, Sedan, dll
+  sortOrder Int      @default(0)
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  cars Car[]
+
+  @@index([isActive, sortOrder])
+  @@map("car_types")
+}
+
+model Car {
+  id           Int      @id @default(autoincrement())
+  brand        String   @db.VarChar(100)
+  name         String   @db.VarChar(200)
+  typeId       Int
+  type         CarType  @relation(fields: [typeId], references: [id], onDelete: Restrict)
+  price        Int      // dalam juta rupiah
+  year         Int
+  transmission String   @db.VarChar(20) // Manual, Automatic
+  fuel         String   @db.VarChar(20) // Bensin, Diesel, Hybrid
+  image        String   @db.Text
+  images       String?  @db.Text // JSON array of string (URLs)
+  features     String?  @db.Text // JSON array stringified
+  promo        String?  @db.VarChar(200)
+  sortOrder    Int      @default(0)
+  isActive     Boolean  @default(true)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@index([typeId])
+  @@index([brand])
+  @@index([isActive, sortOrder])
+  @@map("cars")
+}
+
+model SiteSetting {
+  id        Int      @id @default(autoincrement())
+  key       String   @unique @db.VarChar(100)
+  value     String?  @db.Text
+  category  String   @db.VarChar(50) // site, contact, social, hero
+  label     String   @db.VarChar(200)
+  updatedAt DateTime @updatedAt
+
+  @@index([category])
+  @@map("site_settings")
+}
+
+model HeroSlide {
+  id           Int      @id @default(autoincrement())
+  image        String   @db.Text
+  title        String?  @db.VarChar(200)
+  subtitle     String?  @db.Text
+  ctaLabel     String?  @db.VarChar(100)
+  ctaHref      String?  @db.VarChar(255)
+  textPosition String   @default("left") // left, center, right
+  sortOrder    Int      @default(0)
+  isActive     Boolean  @default(true)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@index([isActive, sortOrder])
+  @@map("hero_slides")
+}
+
+model Promo {
+  id          Int      @id @default(autoincrement())
+  title       String   @db.VarChar(200)
+  description String   @db.Text
+  image       String?  @db.Text
+  images      String?  @db.Text // JSON array of { url: string, colSpan: number }
+  badge       String?  @db.VarChar(100)
+  ctaText     String?  @db.VarChar(100)
+  ctaLink     String?  @db.VarChar(255)
+  layout      String   @default("image-top") // image-top, image-left, image-right
+  sortOrder   Int      @default(0)
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([isActive, sortOrder])
+  @@map("promos")
+}
+
+model Testimonial {
+  id        Int      @id @default(autoincrement())
+  image     String   @db.Text
+  sortOrder Int      @default(0)
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([isActive, sortOrder])
+  @@map("testimonials")
+}
