@@ -29,9 +29,6 @@ export default async function AdminLoginPage() {
             </p>
           </div>
           <AdminLoginForm />
-          <div className="mt-6 text-center text-xs text-muted-foreground border-t border-border pt-4">
-            Default: <span className="font-mono">admin / admin123</span>
-          </div>
         </div>
       </div>
     </div>
