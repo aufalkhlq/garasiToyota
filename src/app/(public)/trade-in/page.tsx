@@ -3,7 +3,7 @@ import { RefreshCw, CheckCircle2, ShieldCheck, Clock } from "lucide-react";
 import TradeInForm from "@/components/tradein/TradeInForm";
 import { getSiteSettings, getSetting } from "@/lib/cms";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 60;
 
 
 export const metadata: Metadata = {

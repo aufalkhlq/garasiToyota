@@ -4,7 +4,7 @@ import { MapPin, Phone, Mail, Clock, MessageCircle } from "lucide-react";
 import ContactForm from "@/components/kontak/ContactForm";
 import { getSiteSettings, getSetting } from "@/lib/cms";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 60;
 
 
 export const metadata: Metadata = {

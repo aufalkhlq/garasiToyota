@@ -10,7 +10,7 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://dealer-mobil.example.com"),
+  metadataBase: new URL("https://garasitoyota.com"),
   title: {
     default: "Dealer Mobil Terpercaya - Harga Terbaik & Promo Spesial",
     template: "%s | Dealer Mobil Terpercaya",
@@ -26,6 +26,9 @@ export const metadata: Metadata = {
     "promo mobil",
   ],
   authors: [{ name: "Dealer Mobil" }],
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     type: "website",
     locale: "id_ID",
@@ -44,9 +47,9 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "AutoDealer",
   name: "DealerKu",
-  image: "https://dealer-mobil.example.com/og-image.jpg",
-  "@id": "https://dealer-mobil.example.com",
-  url: "https://dealer-mobil.example.com",
+  image: "https://garasitoyota.com/og-image.jpg",
+  "@id": "https://garasitoyota.com",
+  url: "https://garasitoyota.com",
   telephone: "+6281234567890",
   priceRange: "$$",
   address: {

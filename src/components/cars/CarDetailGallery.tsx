@@ -16,7 +16,7 @@ export function CarDetailGallery({ mainImage, images, promo, type }: { mainImage
           fill
           priority
           sizes="(min-width: 1024px) 60vw, 100vw"
-          className="object-cover"
+          className="object-contain"
         />
         {promo && (
           <span className="absolute top-4 left-4 inline-block px-3 py-1.5 text-xs font-semibold bg-accent text-white rounded-md shadow-sm">

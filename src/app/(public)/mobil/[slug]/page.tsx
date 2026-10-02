@@ -21,9 +21,17 @@ import {
   getSetting,
   carToSlug,
   formatPrice,
+  getActiveCars,
 } from "@/lib/cms";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 60; // ISR: revalidate every 60 seconds
+
+export async function generateStaticParams() {
+  const cars = await getActiveCars();
+  return cars.map((car) => ({
+    slug: carToSlug(car.brand, car.name),
+  }));
+}
 
 
 type Props = { params: { slug: string } };
@@ -91,7 +99,7 @@ export default async function CarDetailPage({ params }: Props) {
                 <span className="text-3xl font-bold text-accent">
                   {formatPrice(car.price)}
                 </span>
-                {/* <span className="text-sm text-muted-foreground">OTR</span> */}
+                <span className="text-sm text-muted-foreground">OTR</span>
               </div>
               {car.promo && (
                 <div className="mt-2 inline-flex items-center gap-1.5 rounded-md bg-accent/10 px-3 py-1.5 text-sm font-semibold text-accent">

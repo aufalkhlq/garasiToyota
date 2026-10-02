@@ -9,6 +9,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/admin/", "/api/"],
       },
     ],
-    sitemap: "https://dealer-mobil.example.com/sitemap.xml",
+    sitemap: "https://garasitoyota.com/sitemap.xml",
   };
 }
+
